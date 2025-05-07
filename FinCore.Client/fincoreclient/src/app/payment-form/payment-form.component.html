@@ -1,0 +1,76 @@
+<header>
+  <h1 class="h1header">
+    <tui-icon class="bankico" icon="landmark" [style.color]="'var(--tui-background-accent-1)'"></tui-icon>
+    Fincore
+  </h1>
+</header>
+<div class="paymentsFormClass">
+  <h1>Перевод</h1>
+  <form [formGroup]="PaymentForm" (ngSubmit)="onSubmit()">
+    <tui-textfield>
+      <label tuiLabel>Номер карты получателя</label>
+      <input
+        formControlName="clienttocardnumber"
+        icon=""
+        tuiInputCard
+        maxlength="19"
+      />
+      <tui-thumbnail-card
+        iconStart="@tui.dollar-sign"
+        paymentSystem="mastercard"
+        size="s"
+        [style.background]="'#2b9aff linear-gradient(110deg, transparent 70%, #0780ff 71%, #db028b 100%)'"
+      />
+    </tui-textfield>
+
+    <tui-textfield>
+      <label tuiLabel>Номер вашей карты</label>
+      <input
+        formControlName="clientfromcardnumber"
+        icon=""
+        tuiInputCard
+        maxlength="19"
+      />
+      <tui-thumbnail-card
+        iconStart="@tui.dollar-sign"
+        paymentSystem="mastercard"
+        size="s"
+        [style.background]="'#2b9aff linear-gradient(110deg, transparent 70%, #0780ff 71%, #db028b 100%)'"
+      />
+    </tui-textfield>
+
+    <tui-textfield>
+      <label tuiLabel>Сумма</label>
+
+      <input
+        formControlName="amount"
+        tuiInputNumber
+        [min]="0"
+        [prefix]="'RUB' | tuiCurrency"
+      />
+    </tui-textfield>
+
+
+
+    <button
+      class="sendbutton"
+      appearance="primary"
+      [disabled]="!PaymentForm.valid"
+      tuiButton
+      type="submit"
+    >
+      Перевести
+    </button>
+    <button
+      class="homebutton"
+      appearance="primary"
+      tuiButton
+      (click)="NavigateHome()"
+      size="s"
+    >
+      Домой
+    </button>
+
+  </form>
+</div>
+

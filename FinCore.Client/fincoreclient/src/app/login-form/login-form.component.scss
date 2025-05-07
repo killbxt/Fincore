@@ -1,0 +1,67 @@
+body{
+  background-color: #333333;
+}
+
+:host{
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  margin: 2rem auto;
+
+}
+.login-container {
+  margin-top: 20px;
+  margin-left: -50px;
+  width: 400px;
+  background-color: #191b1f;
+  border-radius: 12px;
+  padding: 40px;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: "Segoe UI Semibold";
+}
+.scan-faceico{
+  margin-left: 42%;
+}
+
+h1{
+  color: White;
+  font-family: "Segoe UI Semibold";
+  margin-left: 110px;
+}
+.password__container{
+ margin-top: 20px;
+}
+.button_container{
+  margin-top: 20px;
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+header{
+  margin-left: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #3367d6;
+}

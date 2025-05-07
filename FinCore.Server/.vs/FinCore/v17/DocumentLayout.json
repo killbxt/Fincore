@@ -1,0 +1,738 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\clients\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\clients\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\repositories\\clientsrepository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\repositories\\clientsrepository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\repositories\\clientsrepository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\repositories\\clientsrepository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\repositories\\cardsrepository\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\repositories\\cardsrepository\\icardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\context\\fincoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\context\\fincoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\clientsservice\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\clientsservice\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\cardsservice\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\cardsservice\\icardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\controllers\\cardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\migrations\\20250419225023_fcim20042025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\migrations\\20250419225023_fcim20042025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\migrations\\20250506111541_initializemigration06052025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\migrations\\20250506111541_initializemigration06052025.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\migrations\\fincoredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\migrations\\fincoredbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\repositories\\cardsrepository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\repositories\\cardsrepository\\cardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\repositories\\transactionsrepository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\repositories\\transactionsrepository\\itransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\repositories\\transactionsrepository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\repositories\\transactionsrepository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\transactionsservice\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\transactionsservice\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\transactionsservice\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\transactionsservice\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\clientsservice\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\clientsservice\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\transactions\\transactions.dto\\maketransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\transactions\\transactions.dto\\maketransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\transactions\\transactions.dto\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\transactions\\transactions.dto\\addtransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\cards\\cards.dto\\updatecarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\cards\\cards.dto\\updatecarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\cards\\cards.dto\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\cards\\cards.dto\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\cardsservice\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\cardsservice\\cardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\cards\\cards.dto\\addcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\cards\\cards.dto\\addcarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\clients\\clients.dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\clients\\clients.dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\authsservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\authsservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\authsservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\authsservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\clients\\clients.dto\\loginclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\clients\\clients.dto\\loginclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\clients\\clients.dto\\addclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\clients\\clients.dto\\addclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\clients\\clients.dto\\registerclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\clients\\clients.dto\\registerclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\transactions\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\transactions\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\transactions\\transactions.dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\transactions\\transactions.dto\\transactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\transactions\\transactions.dto\\updatetransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\transactions\\transactions.dto\\updatetransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\models\\clients\\clients.dto\\updateclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\models\\clients\\clients.dto\\updateclientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.domain\\fincore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B9FA268-A598-DEBD-515A-0EFA806CC12B}|FinCore.Domain\\FinCore.Domain.csproj|solutionrelative:fincore.domain\\fincore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.services\\fincore.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{865E9B6D-CD68-462D-4509-AD2D13BBBDE7}|FinCore.Services\\FinCore.Services.csproj|solutionrelative:fincore.services\\fincore.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.data\\fincore.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{342B54C0-7BA3-C0F7-26F9-43DC312ED4B7}|FinCore.Data\\FinCore.Data.csproj|solutionrelative:fincore.data\\fincore.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|c:\\users\\danii\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\fincore\\fincore.server\\fincore.api\\fincore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{867D1728-7060-479D-8B62-20D6E3E7F073}|FinCore.API\\FinCore.API.csproj|solutionrelative:fincore.api\\fincore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 306,
+          "SelectedChildIndex": 40,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FinCore.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FinCore.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T23:15:42.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250506111541_initializeMigration06052025.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Migrations\\20250506111541_initializeMigration06052025.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Migrations\\20250506111541_initializeMigration06052025.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Migrations\\20250506111541_initializeMigration06052025.cs",
+              "RelativeToolTip": "FinCore.Data\\Migrations\\20250506111541_initializeMigration06052025.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:39:54.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FinCoreDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Migrations\\FinCoreDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Migrations\\FinCoreDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Migrations\\FinCoreDbContextModelSnapshot.cs",
+              "RelativeToolTip": "FinCore.Data\\Migrations\\FinCoreDbContextModelSnapshot.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:39:52.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MakeTransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\MakeTransactionDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\MakeTransactionDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\MakeTransactionDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\MakeTransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:20:14.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FinCore.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FinCore.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T19:45:38.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "FinCore.API\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "FinCore.API\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:55:57.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CardController.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\CardController.cs",
+              "RelativeDocumentMoniker": "FinCore.API\\Controllers\\CardController.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\CardController.cs",
+              "RelativeToolTip": "FinCore.API\\Controllers\\CardController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:55:01.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "FinCore.API\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "FinCore.API\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:52:58.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RegisterClientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\RegisterClientDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\RegisterClientDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\RegisterClientDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\RegisterClientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:05:22.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginClientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\LoginClientDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\LoginClientDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\LoginClientDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\LoginClientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T17:05:03.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\ClientsService\\ClientService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\ClientsService\\ClientService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\ClientsService\\ClientService.cs",
+              "RelativeToolTip": "FinCore.Services\\ClientsService\\ClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:35:12.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\ClientsService\\IClientService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\ClientsService\\IClientService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\ClientsService\\IClientService.cs",
+              "RelativeToolTip": "FinCore.Services\\ClientsService\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:35:06.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\AuthsService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\AuthsService\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\AuthsService\\IAuthService.cs",
+              "RelativeToolTip": "FinCore.Services\\AuthsService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:27:35.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\AuthsService\\AuthService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\AuthsService\\AuthService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\AuthsService\\AuthService.cs",
+              "RelativeToolTip": "FinCore.Services\\AuthsService\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:27:25.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICardService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\CardsService\\ICardService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\CardsService\\ICardService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\CardsService\\ICardService.cs",
+              "RelativeToolTip": "FinCore.Services\\CardsService\\ICardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:16:27.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CardService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\CardsService\\CardService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\CardsService\\CardService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\CardsService\\CardService.cs",
+              "RelativeToolTip": "FinCore.Services\\CardsService\\CardService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:15:55.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\TransactionsService\\TransactionService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\TransactionsService\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\TransactionsService\\TransactionService.cs",
+              "RelativeToolTip": "FinCore.Services\\TransactionsService\\TransactionService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:15:37.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\TransactionsService\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "FinCore.Services\\TransactionsService\\ITransactionService.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\TransactionsService\\ITransactionService.cs",
+              "RelativeToolTip": "FinCore.Services\\TransactionsService\\ITransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T13:15:23.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\TransactionsRepository\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Repositories\\TransactionsRepository\\TransactionRepository.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\TransactionsRepository\\TransactionRepository.cs",
+              "RelativeToolTip": "FinCore.Data\\Repositories\\TransactionsRepository\\TransactionRepository.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAAAHoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:09:55.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITransactionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\TransactionsRepository\\ITransactionRepository.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Repositories\\TransactionsRepository\\ITransactionRepository.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\TransactionsRepository\\ITransactionRepository.cs",
+              "RelativeToolTip": "FinCore.Data\\Repositories\\TransactionsRepository\\ITransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:05:05.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\CardsRepository\\CardRepository.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Repositories\\CardsRepository\\CardRepository.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\CardsRepository\\CardRepository.cs",
+              "RelativeToolTip": "FinCore.Data\\Repositories\\CardsRepository\\CardRepository.cs",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAAAFUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:04:34.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UpdateTransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\UpdateTransactionDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\UpdateTransactionDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\UpdateTransactionDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\UpdateTransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:00:42.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddTransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\AddTransactionDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\AddTransactionDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\AddTransactionDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\AddTransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:00:32.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "TransactionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\TransactionDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\TransactionDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\TransactionDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Transactions\\Transactions.DTO\\TransactionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T21:00:12.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdateCardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Cards.DTO\\UpdateCardDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Cards\\Cards.DTO\\UpdateCardDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Cards.DTO\\UpdateCardDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Cards\\Cards.DTO\\UpdateCardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:57:10.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddCardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Cards.DTO\\AddCardDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Cards\\Cards.DTO\\AddCardDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Cards.DTO\\AddCardDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Cards\\Cards.DTO\\AddCardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:56:58.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Cards.DTO\\CardDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Cards\\Cards.DTO\\CardDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Cards.DTO\\CardDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Cards\\Cards.DTO\\CardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:56:47.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\CardsRepository\\ICardRepository.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Repositories\\CardsRepository\\ICardRepository.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\CardsRepository\\ICardRepository.cs",
+              "RelativeToolTip": "FinCore.Data\\Repositories\\CardsRepository\\ICardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:56:05.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ClientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\ClientDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\ClientDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\ClientDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\ClientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:02:37.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateClientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\UpdateClientDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\UpdateClientDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\UpdateClientDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\UpdateClientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:02:20.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddClientDTO.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\AddClientDTO.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\AddClientDTO.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Clients.DTO\\AddClientDTO.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Clients\\Clients.DTO\\AddClientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:02:12.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\ClientsRepository\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Repositories\\ClientsRepository\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\ClientsRepository\\ClientRepository.cs",
+              "RelativeToolTip": "FinCore.Data\\Repositories\\ClientsRepository\\ClientRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T23:01:51.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\ClientsRepository\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Repositories\\ClientsRepository\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Repositories\\ClientsRepository\\IClientRepository.cs",
+              "RelativeToolTip": "FinCore.Data\\Repositories\\ClientsRepository\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:54:53.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250419225023_FCIM20042025.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Migrations\\20250419225023_FCIM20042025.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Migrations\\20250419225023_FCIM20042025.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Migrations\\20250419225023_FCIM20042025.cs",
+              "RelativeToolTip": "FinCore.Data\\Migrations\\20250419225023_FCIM20042025.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:50:23.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FinCore.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\appsettings.json",
+              "RelativeToolTip": "FinCore.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-19T22:37:11.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FinCore.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\FinCore.Domain.csproj",
+              "RelativeDocumentMoniker": "FinCore.Domain\\FinCore.Domain.csproj",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\FinCore.Domain.csproj",
+              "RelativeToolTip": "FinCore.Domain\\FinCore.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T18:35:10.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FinCore.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\FinCore.Services.csproj",
+              "RelativeDocumentMoniker": "FinCore.Services\\FinCore.Services.csproj",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Services\\FinCore.Services.csproj",
+              "RelativeToolTip": "FinCore.Services\\FinCore.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T18:35:10.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FinCore.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\FinCore.Data.csproj",
+              "RelativeDocumentMoniker": "FinCore.Data\\FinCore.Data.csproj",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\FinCore.Data.csproj",
+              "RelativeToolTip": "FinCore.Data\\FinCore.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T18:35:10.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FinCore.API.csproj",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\FinCore.API.csproj",
+              "RelativeDocumentMoniker": "FinCore.API\\FinCore.API.csproj",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\FinCore.API.csproj",
+              "RelativeToolTip": "FinCore.API\\FinCore.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-19T18:35:09.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FinCoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Context\\FinCoreDbContext.cs",
+              "RelativeDocumentMoniker": "FinCore.Data\\Context\\FinCoreDbContext.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Data\\Context\\FinCoreDbContext.cs",
+              "RelativeToolTip": "FinCore.Data\\Context\\FinCoreDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T07:30:56.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Client.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Clients\\Client.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Clients\\Client.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Clients\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T07:28:44.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transaction.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Transactions\\Transaction.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Transactions\\Transaction.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Transactions\\Transaction.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIBZwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T07:28:37.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Card.cs",
+              "RelativeDocumentMoniker": "FinCore.Domain\\Models\\Cards\\Card.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.Domain\\Models\\Cards\\Card.cs",
+              "RelativeToolTip": "FinCore.Domain\\Models\\Cards\\Card.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T07:28:00.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Program.cs",
+              "RelativeDocumentMoniker": "FinCore.API\\Program.cs",
+              "ToolTip": "C:\\Users\\danii\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\FinCore\\FinCore.Server\\FinCore.API\\Program.cs",
+              "RelativeToolTip": "FinCore.API\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAACMAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T07:25:29.339Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

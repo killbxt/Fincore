@@ -1,0 +1,509 @@
+[
+  {
+    "ContainingType": "FinCore.API.Controllers.AuthController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "FinCore.Domain.Models.Clients.Clients.DTO.LoginClientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "CreateCardAsync",
+    "RelativePath": "Fincore.API/Card",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardDto",
+        "Type": "FinCore.Domain.Models.Cards.Cards.DTO.AddCardDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "GetAllCardsAsync",
+    "RelativePath": "Fincore.API/Card",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "GetCardByIdAsync",
+    "RelativePath": "Fincore.API/Card/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "UpdateCardAsync",
+    "RelativePath": "Fincore.API/Card/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "cardDto",
+        "Type": "FinCore.Domain.Models.Cards.Cards.DTO.UpdateCardDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "DeleteCardAsync",
+    "RelativePath": "Fincore.API/Card/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "GetCardsByClientIdAsync",
+    "RelativePath": "Fincore.API/Card/client/{clientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "GetExpiredCardsAsync",
+    "RelativePath": "Fincore.API/Card/expired",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "FindCardsAsync",
+    "RelativePath": "Fincore.API/Card/find",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "predicate",
+        "Type": "System.Linq.Expressions.Expression\u00601[[System.Func\u00602[[FinCore.Domain.Models.Cards.Card, FinCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.CardController",
+    "Method": "IsCardNumberUniqueAsync",
+    "RelativePath": "Fincore.API/Card/is-card-number-unique/{cardNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "CreateClientAsync",
+    "RelativePath": "Fincore.API/Client",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientDto",
+        "Type": "FinCore.Domain.Models.Clients.Clients.DTO.AddClientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetAllClientsAsync",
+    "RelativePath": "Fincore.API/Client",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetClientByIdAsync",
+    "RelativePath": "Fincore.API/Client/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "UpdateClientAsync",
+    "RelativePath": "Fincore.API/Client/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "clientDto",
+        "Type": "FinCore.Domain.Models.Clients.Clients.DTO.UpdateClientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "DeleteClientByIdAsync",
+    "RelativePath": "Fincore.API/Client/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetClientPasswordForVerificationAsync",
+    "RelativePath": "Fincore.API/Client/{id}/password",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetClientsWithBirthdayTodayAsync",
+    "RelativePath": "Fincore.API/Client/birthday-today",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetClientByEmailAsync",
+    "RelativePath": "Fincore.API/Client/email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "FindClientsAsync",
+    "RelativePath": "Fincore.API/Client/find",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "predicate",
+        "Type": "System.Linq.Expressions.Expression\u00601[[System.Func\u00602[[FinCore.Domain.Models.Clients.Client, FinCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "IsEmailUniqueAsync",
+    "RelativePath": "Fincore.API/Client/is-email-unique/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "IsPhoneNumberUniqueAsync",
+    "RelativePath": "Fincore.API/Client/is-phone-unique/{phoneNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phoneNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetClientByPhoneNumberAsync",
+    "RelativePath": "Fincore.API/Client/phone/{phoneNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phoneNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.ClientController",
+    "Method": "GetClientsWithoutCardsAsync",
+    "RelativePath": "Fincore.API/Client/without-cards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "GetAllTransactionsAsync",
+    "RelativePath": "Fincore.API/Transaction",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "MakeTransactionAsync",
+    "RelativePath": "Fincore.API/Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionDto",
+        "Type": "FinCore.Domain.Models.Transactions.Transactions.DTO.AddTransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "GetTransactionByIdAsync",
+    "RelativePath": "Fincore.API/Transaction/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "UpdateTransactionAsync",
+    "RelativePath": "Fincore.API/Transaction/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "transactionDto",
+        "Type": "FinCore.Domain.Models.Transactions.Transactions.DTO.UpdateTransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "DeleteTransactionAsync",
+    "RelativePath": "Fincore.API/Transaction/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "GetTransactionsByCardIdAsync",
+    "RelativePath": "Fincore.API/Transaction/card/{cardId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "GetTransactionsByClientIdAsync",
+    "RelativePath": "Fincore.API/Transaction/client/{clientId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "GetTotalAmountByClientIdAsync",
+    "RelativePath": "Fincore.API/Transaction/client/{clientId}/total-amount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "FindTransactionsAsync",
+    "RelativePath": "Fincore.API/Transaction/find",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "predicate",
+        "Type": "System.Linq.Expressions.Expression\u00601[[System.Func\u00602[[FinCore.Domain.Models.Transactions.Transaction, FinCore.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinCore.API.Controllers.TransactionController",
+    "Method": "MakeTransactionByBothNumbers",
+    "RelativePath": "Fincore.API/Transaction/MakeTransaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MTD",
+        "Type": "FinCore.Domain.Models.Transactions.Transactions.DTO.MakeTransactionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

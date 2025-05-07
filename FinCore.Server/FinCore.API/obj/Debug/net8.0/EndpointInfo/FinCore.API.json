@@ -1,0 +1,3255 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "FinCore.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginClientDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginClientDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginClientDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Card": {
+      "post": {
+        "tags": [
+          "Card"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddCardDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddCardDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddCardDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Card"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Card/{id}": {
+      "get": {
+        "tags": [
+          "Card"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Card"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCardDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCardDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateCardDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Card"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Card/find": {
+      "post": {
+        "tags": [
+          "Card"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardBooleanFuncExpression"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardBooleanFuncExpression"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CardBooleanFuncExpression"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Card/client/{clientId}": {
+      "get": {
+        "tags": [
+          "Card"
+        ],
+        "parameters": [
+          {
+            "name": "clientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Card/is-card-number-unique/{cardNumber}": {
+      "get": {
+        "tags": [
+          "Card"
+        ],
+        "parameters": [
+          {
+            "name": "cardNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Card/expired": {
+      "get": {
+        "tags": [
+          "Card"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client": {
+      "post": {
+        "tags": [
+          "Client"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddClientDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddClientDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddClientDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/{id}": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateClientDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateClientDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateClientDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/find": {
+      "post": {
+        "tags": [
+          "Client"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientBooleanFuncExpression"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientBooleanFuncExpression"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClientBooleanFuncExpression"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/email/{email}": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/phone/{phoneNumber}": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "phoneNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/is-email-unique/{email}": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/is-phone-unique/{phoneNumber}": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "phoneNumber",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/birthday-today": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/without-cards": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Client/{id}/password": {
+      "get": {
+        "tags": [
+          "Client"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction/MakeTransaction": {
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MakeTransactionDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MakeTransactionDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MakeTransactionDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction/{id}": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTransactionDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTransactionDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTransactionDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddTransactionDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddTransactionDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddTransactionDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction/find": {
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionBooleanFuncExpression"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionBooleanFuncExpression"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransactionBooleanFuncExpression"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction/card/{cardId}": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "cardId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction/client/{clientId}": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "clientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Fincore.API/Transaction/client/{clientId}/total-amount": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "clientId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddCardDTO": {
+        "required": [
+          "cardNumber",
+          "clientId",
+          "cvc",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "type": {
+            "$ref": "#/components/schemas/CardType"
+          },
+          "cardNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "cvc": {
+            "type": "string",
+            "nullable": true
+          },
+          "clientId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "issueDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "expiryDate": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddClientDTO": {
+        "required": [
+          "dateOfBirth",
+          "email",
+          "name",
+          "password",
+          "phoneNumber",
+          "surname"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "name": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string"
+          },
+          "surname": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string"
+          },
+          "patronymic": {
+            "maxLength": 34,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "password": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddTransactionDTO": {
+        "required": [
+          "amount",
+          "cardFromId",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardFromId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "cardToId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "type": {
+            "$ref": "#/components/schemas/TransactionType"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Assembly": {
+        "type": "object",
+        "properties": {
+          "definedTypes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TypeInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "exportedTypes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Type"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "codeBase": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true,
+            "deprecated": true
+          },
+          "entryPoint": {
+            "$ref": "#/components/schemas/MethodInfo"
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "imageRuntimeVersion": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "isDynamic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "location": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "reflectionOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFullyTrusted": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "escapedCodeBase": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true,
+            "deprecated": true
+          },
+          "manifestModule": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "modules": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Module"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "globalAssemblyCache": {
+            "type": "boolean",
+            "readOnly": true,
+            "deprecated": true
+          },
+          "hostContext": {
+            "type": "integer",
+            "format": "int64",
+            "readOnly": true
+          },
+          "securityRuleSet": {
+            "$ref": "#/components/schemas/SecurityRuleSet"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CallingConventions": {
+        "enum": [
+          1,
+          2,
+          3,
+          32,
+          64
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "CardBooleanFuncExpression": {
+        "type": "object",
+        "properties": {
+          "canReduce": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "type": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "nodeType": {
+            "$ref": "#/components/schemas/ExpressionType"
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ParameterExpression"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "body": {
+            "$ref": "#/components/schemas/Expression"
+          },
+          "returnType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "tailCall": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CardStatus": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "CardType": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ClientBooleanFuncExpression": {
+        "type": "object",
+        "properties": {
+          "canReduce": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "type": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "nodeType": {
+            "$ref": "#/components/schemas/ExpressionType"
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ParameterExpression"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "body": {
+            "$ref": "#/components/schemas/Expression"
+          },
+          "returnType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "tailCall": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConstructorInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/MethodAttributes"
+          },
+          "methodImplementationFlags": {
+            "$ref": "#/components/schemas/MethodImplAttributes"
+          },
+          "callingConvention": {
+            "$ref": "#/components/schemas/CallingConventions"
+          },
+          "isAbstract": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructor": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFinal": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isHideBySig": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isStatic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVirtual": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamily": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyAndAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyOrAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPrivate": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructedGenericMethod": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethod": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethodDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "containsGenericParameters": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "methodHandle": {
+            "$ref": "#/components/schemas/RuntimeMethodHandle"
+          },
+          "isSecurityCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecuritySafeCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityTransparent": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomAttributeData": {
+        "type": "object",
+        "properties": {
+          "attributeType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "constructor": {
+            "$ref": "#/components/schemas/ConstructorInfo"
+          },
+          "constructorArguments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeTypedArgument"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "namedArguments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeNamedArgument"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomAttributeNamedArgument": {
+        "type": "object",
+        "properties": {
+          "memberInfo": {
+            "$ref": "#/components/schemas/MemberInfo"
+          },
+          "typedValue": {
+            "$ref": "#/components/schemas/CustomAttributeTypedArgument"
+          },
+          "memberName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "isField": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomAttributeTypedArgument": {
+        "type": "object",
+        "properties": {
+          "argumentType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "value": {
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EventAttributes": {
+        "enum": [
+          0,
+          512,
+          1024
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "EventInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/EventAttributes"
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "addMethod": {
+            "$ref": "#/components/schemas/MethodInfo"
+          },
+          "removeMethod": {
+            "$ref": "#/components/schemas/MethodInfo"
+          },
+          "raiseMethod": {
+            "$ref": "#/components/schemas/MethodInfo"
+          },
+          "isMulticast": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "eventHandlerType": {
+            "$ref": "#/components/schemas/Type"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Expression": {
+        "type": "object",
+        "properties": {
+          "nodeType": {
+            "$ref": "#/components/schemas/ExpressionType"
+          },
+          "type": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "canReduce": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExpressionType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "FieldAttributes": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024,
+          4096,
+          8192,
+          32768,
+          38144
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "FieldInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/FieldAttributes"
+          },
+          "fieldType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "isInitOnly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isLiteral": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNotSerialized": {
+            "type": "boolean",
+            "readOnly": true,
+            "deprecated": true
+          },
+          "isPinvokeImpl": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isStatic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamily": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyAndAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyOrAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPrivate": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecuritySafeCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityTransparent": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "fieldHandle": {
+            "$ref": "#/components/schemas/RuntimeFieldHandle"
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenericParameterAttributes": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          16,
+          28
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ICustomAttributeProvider": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "IntPtr": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "LayoutKind": {
+        "enum": [
+          0,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "LoginClientDTO": {
+        "required": [
+          "password",
+          "phoneNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MakeTransactionDTO": {
+        "required": [
+          "amount",
+          "cardFromNumber",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardFromNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "cardToNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "type": {
+            "$ref": "#/components/schemas/TransactionType"
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MemberInfo": {
+        "type": "object",
+        "properties": {
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MemberTypes": {
+        "enum": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          191
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "MethodAttributes": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048,
+          4096,
+          8192,
+          16384,
+          32768,
+          53248
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "MethodBase": {
+        "type": "object",
+        "properties": {
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/MethodAttributes"
+          },
+          "methodImplementationFlags": {
+            "$ref": "#/components/schemas/MethodImplAttributes"
+          },
+          "callingConvention": {
+            "$ref": "#/components/schemas/CallingConventions"
+          },
+          "isAbstract": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructor": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFinal": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isHideBySig": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isStatic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVirtual": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamily": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyAndAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyOrAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPrivate": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructedGenericMethod": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethod": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethodDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "containsGenericParameters": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "methodHandle": {
+            "$ref": "#/components/schemas/RuntimeMethodHandle"
+          },
+          "isSecurityCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecuritySafeCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityTransparent": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MethodImplAttributes": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128,
+          256,
+          512,
+          4096,
+          65535
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "MethodInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/MethodAttributes"
+          },
+          "methodImplementationFlags": {
+            "$ref": "#/components/schemas/MethodImplAttributes"
+          },
+          "callingConvention": {
+            "$ref": "#/components/schemas/CallingConventions"
+          },
+          "isAbstract": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructor": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFinal": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isHideBySig": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isStatic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVirtual": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamily": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyAndAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFamilyOrAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPrivate": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructedGenericMethod": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethod": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethodDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "containsGenericParameters": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "methodHandle": {
+            "$ref": "#/components/schemas/RuntimeMethodHandle"
+          },
+          "isSecurityCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecuritySafeCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityTransparent": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "returnParameter": {
+            "$ref": "#/components/schemas/ParameterInfo"
+          },
+          "returnType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "returnTypeCustomAttributes": {
+            "$ref": "#/components/schemas/ICustomAttributeProvider"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Module": {
+        "type": "object",
+        "properties": {
+          "assembly": {
+            "$ref": "#/components/schemas/Assembly"
+          },
+          "fullyQualifiedName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "mdStreamVersion": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "moduleVersionId": {
+            "type": "string",
+            "format": "uuid",
+            "readOnly": true
+          },
+          "scopeName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "moduleHandle": {
+            "$ref": "#/components/schemas/ModuleHandle"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ModuleHandle": {
+        "type": "object",
+        "properties": {
+          "mdStreamVersion": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParameterAttributes": {
+        "enum": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          16,
+          4096,
+          8192,
+          16384,
+          32768,
+          61440
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ParameterExpression": {
+        "type": "object",
+        "properties": {
+          "canReduce": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "type": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "nodeType": {
+            "$ref": "#/components/schemas/ExpressionType"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "isByRef": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParameterInfo": {
+        "type": "object",
+        "properties": {
+          "attributes": {
+            "$ref": "#/components/schemas/ParameterAttributes"
+          },
+          "member": {
+            "$ref": "#/components/schemas/MemberInfo"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "parameterType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "position": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "isIn": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isLcid": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isOptional": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isOut": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isRetval": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "defaultValue": {
+            "nullable": true,
+            "readOnly": true
+          },
+          "rawDefaultValue": {
+            "nullable": true,
+            "readOnly": true
+          },
+          "hasDefaultValue": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PropertyAttributes": {
+        "enum": [
+          0,
+          512,
+          1024,
+          4096,
+          8192,
+          16384,
+          32768,
+          62464
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "PropertyInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "propertyType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/PropertyAttributes"
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "canRead": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "canWrite": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "getMethod": {
+            "$ref": "#/components/schemas/MethodInfo"
+          },
+          "setMethod": {
+            "$ref": "#/components/schemas/MethodInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RuntimeFieldHandle": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/IntPtr"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RuntimeMethodHandle": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/IntPtr"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RuntimeTypeHandle": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "$ref": "#/components/schemas/IntPtr"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SecurityRuleSet": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "StructLayoutAttribute": {
+        "type": "object",
+        "properties": {
+          "typeId": {
+            "nullable": true,
+            "readOnly": true
+          },
+          "value": {
+            "$ref": "#/components/schemas/LayoutKind"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransactionBooleanFuncExpression": {
+        "type": "object",
+        "properties": {
+          "canReduce": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "type": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "nodeType": {
+            "$ref": "#/components/schemas/ExpressionType"
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ParameterExpression"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "body": {
+            "$ref": "#/components/schemas/Expression"
+          },
+          "returnType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "tailCall": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransactionStatus": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "TransactionType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Type": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "isInterface": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "namespace": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "assemblyQualifiedName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "assembly": {
+            "$ref": "#/components/schemas/Assembly"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "isNested": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "declaringMethod": {
+            "$ref": "#/components/schemas/MethodBase"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "underlyingSystemType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "isTypeDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isArray": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isByRef": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPointer": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructedGenericType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericParameter": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericTypeParameter": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethodParameter": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericTypeDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSZArray": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVariableBoundArray": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isByRefLike": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFunctionPointer": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isUnmanagedFunctionPointer": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "hasElementType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "genericTypeArguments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Type"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "genericParameterPosition": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "genericParameterAttributes": {
+            "$ref": "#/components/schemas/GenericParameterAttributes"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/TypeAttributes"
+          },
+          "isAbstract": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isImport": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSealed": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedFamANDAssem": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedFamily": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedFamORAssem": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedPrivate": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNotPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAutoLayout": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isExplicitLayout": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isLayoutSequential": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAnsiClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAutoClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isUnicodeClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isCOMObject": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isContextful": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isEnum": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isMarshalByRef": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPrimitive": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isValueType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSignatureType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecuritySafeCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityTransparent": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "structLayoutAttribute": {
+            "$ref": "#/components/schemas/StructLayoutAttribute"
+          },
+          "typeInitializer": {
+            "$ref": "#/components/schemas/ConstructorInfo"
+          },
+          "typeHandle": {
+            "$ref": "#/components/schemas/RuntimeTypeHandle"
+          },
+          "guid": {
+            "type": "string",
+            "format": "uuid",
+            "readOnly": true
+          },
+          "baseType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "isSerializable": {
+            "type": "boolean",
+            "readOnly": true,
+            "deprecated": true
+          },
+          "containsGenericParameters": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TypeAttributes": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          16,
+          24,
+          32,
+          128,
+          256,
+          1024,
+          2048,
+          4096,
+          8192,
+          16384,
+          65536,
+          131072,
+          196608,
+          262144,
+          264192,
+          1048576,
+          12582912
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "TypeInfo": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "customAttributes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomAttributeData"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "isCollectible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "metadataToken": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "isInterface": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "memberType": {
+            "$ref": "#/components/schemas/MemberTypes"
+          },
+          "namespace": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "assemblyQualifiedName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "assembly": {
+            "$ref": "#/components/schemas/Assembly"
+          },
+          "module": {
+            "$ref": "#/components/schemas/Module"
+          },
+          "isNested": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "declaringType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "declaringMethod": {
+            "$ref": "#/components/schemas/MethodBase"
+          },
+          "reflectedType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "underlyingSystemType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "isTypeDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isArray": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isByRef": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPointer": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isConstructedGenericType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericParameter": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericTypeParameter": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericMethodParameter": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isGenericTypeDefinition": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSZArray": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVariableBoundArray": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isByRefLike": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isFunctionPointer": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isUnmanagedFunctionPointer": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "hasElementType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "genericTypeArguments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Type"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "genericParameterPosition": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "genericParameterAttributes": {
+            "$ref": "#/components/schemas/GenericParameterAttributes"
+          },
+          "attributes": {
+            "$ref": "#/components/schemas/TypeAttributes"
+          },
+          "isAbstract": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isImport": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSealed": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSpecialName": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedAssembly": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedFamANDAssem": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedFamily": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedFamORAssem": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedPrivate": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNestedPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isNotPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPublic": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAutoLayout": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isExplicitLayout": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isLayoutSequential": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAnsiClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isAutoClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isUnicodeClass": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isCOMObject": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isContextful": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isEnum": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isMarshalByRef": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isPrimitive": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isValueType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSignatureType": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecuritySafeCritical": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isSecurityTransparent": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "structLayoutAttribute": {
+            "$ref": "#/components/schemas/StructLayoutAttribute"
+          },
+          "typeInitializer": {
+            "$ref": "#/components/schemas/ConstructorInfo"
+          },
+          "typeHandle": {
+            "$ref": "#/components/schemas/RuntimeTypeHandle"
+          },
+          "guid": {
+            "type": "string",
+            "format": "uuid",
+            "readOnly": true
+          },
+          "baseType": {
+            "$ref": "#/components/schemas/Type"
+          },
+          "isSerializable": {
+            "type": "boolean",
+            "readOnly": true,
+            "deprecated": true
+          },
+          "containsGenericParameters": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "isVisible": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "genericTypeParameters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Type"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredConstructors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ConstructorInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredEvents": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EventInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredFields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FieldInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredMembers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MemberInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredMethods": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MethodInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredNestedTypes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TypeInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "declaredProperties": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PropertyInfo"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "implementedInterfaces": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Type"
+            },
+            "nullable": true,
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCardDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "type": {
+            "$ref": "#/components/schemas/CardType"
+          },
+          "status": {
+            "$ref": "#/components/schemas/CardStatus"
+          },
+          "expiryDate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "amount": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateClientDTO": {
+        "required": [
+          "id"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "nullable": true
+          },
+          "name": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "surname": {
+            "maxLength": 30,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "patronymic": {
+            "maxLength": 34,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateOfBirth": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTransactionDTO": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "merchant": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "$ref": "#/components/schemas/TransactionStatus"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

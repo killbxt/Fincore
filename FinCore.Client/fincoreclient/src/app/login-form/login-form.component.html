@@ -1,0 +1,40 @@
+<header>
+  <h1>
+    <tui-icon class="bankico" icon="landmark" [style.color]="'var(--tui-background-accent-1)'"></tui-icon>
+    Fincore
+  </h1>
+</header>
+<div class="login-container">
+    <tui-icon class="scan-faceico" [style.font-size.rem]="4" icon="scan-face" [style.color]="'var(--tui-background-accent-3)'"></tui-icon>
+  <h2>Вход</h2>
+
+  <p>Введите данные чтобы войти</p>
+    <form [formGroup]="loginForm" class="phone__container">
+      <tui-input-phone  type="phonenumber" formControlName="phoneNumber" label="Номер телефона">
+        Введите номер телефона
+      </tui-input-phone>
+
+      <tui-textfield class="password__container">
+        <label tuiLabel>Введите пароль</label>
+        <input
+          tuiTextfield
+          type="password"
+          formControlName="password"
+        />
+        <tui-icon tuiPassword />
+      </tui-textfield>
+    </form>
+    <button
+      class="button_container"
+      iconStart="@tui.log-in"
+      tuiButton
+      type="button"
+      [loading]="loading$ | async"
+      (click)="onButtonClick()"
+      >
+      Войти
+    </button>
+  <p>
+    Нет аккаунта? <a routerLink="/register">Зарегистрироваться</a>
+  </p>
+</div>

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kAptyJIZO4pDBaT/2lb45JJp4Ar2hYeSmYAsqdrDdqs=",
+  "Source": "FinCore.API",
+  "BasePath": "_content/FinCore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

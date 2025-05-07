@@ -1,0 +1,26 @@
+<div class="transactionForm">
+  <div tuiBlockDetails>
+      <tui-avatar src="@tui.user" [size]="isMobile ? 'xl' : 'xxl'"
+                  [style.background]="'LL' | tuiAutoColor" [style.color]="'var(--tui-background-accent-1)'"></tui-avatar>
+    <h2 tuiTitle>
+       Имя Ф.
+      <div tuiSubtitle style="color: grey">Transaction type</div>
+    </h2>
+
+    <span>{{ -1050 | tuiAmount: 'USD' | async }}</span>
+    <span tuiSubtitle style="color: grey">today</span>
+    <span tuiComment>Birthday gift</span>
+    <div tuiAccessories>
+      <tui-badge appearance="neutral" style="color:grey">private</tui-badge>
+      <tui-badge>fast</tui-badge>
+    </div>
+    <div tuiDetailsStatus style="color: white">
+      <tui-icon
+        icon="@tui.clock"
+        [style.color]="'var(--tui-background-accent-1)'"
+        [style.font-size.rem]="1"
+      />
+      Pending
+    </div>
+  </div>
+</div>

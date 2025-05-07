@@ -1,0 +1,138 @@
+<div class="container">
+  <div class="left-panel">
+    <header>
+      <h1>
+        <tui-icon class="bankico" icon="landmark" [style.color]="'var(--tui-background-accent-1)'"></tui-icon>
+        Fincore
+      </h1>
+      <div class="exitbutton">
+        <div class="exitbuttonName">
+          {{userData.name}}
+        </div>
+        <button  appearance="outline" tuiAppearanceMode="checked" tuiButton size="s" type="button" (click)="logout()">
+          Выход
+        </button>
+      </div>
+    </header>
+    <div class="profile__listbuttons">
+      <button class="button__profile" tuiButton type="button" (click)="showAccountInfo()">
+        <tui-icon size="xs" icon="user"></tui-icon>
+        {{userData.name}} {{userData.patronymic}}
+      </button>
+    </div>
+    <div class="profile__listbuttons">
+
+      <button class="button__profile" tuiButton type="button" (click)="NavigatePayments()">
+        <tui-icon size="xs" icon="credit-card"></tui-icon>
+        Платежи
+      </button>
+
+      <button class="button__profile" disabled tuiButton type="button" (click)="showHistoryInfo()">
+        <tui-icon size="xs" icon="history"></tui-icon>
+        История(в разработке)
+      </button>
+      <button class="button__profile"  tuiButton type="button" (click)="showHelpInfo()">
+        <tui-icon size="xs" icon="newspaper"></tui-icon>
+        Справка
+      </button>
+    </div>
+    <div class="profile__listbuttons">
+      <button class="button__profile__add" tuiButton type="button" (click)="showCardDialog()">
+        <tui-icon size="xs" icon="circle-plus"></tui-icon>
+        Открыть новый продукт
+      </button>
+
+      <ng-template
+        let-observer
+        [tuiDialogOptions]="{label: 'Давай оформим карту!', size: 's'}"
+        [(tuiDialog)]="openCardForm"
+      >
+        <form
+          [formGroup]="cardAddForm"
+          (ngSubmit)="onSubmit(observer)"
+        >
+          <p>Дай нам знать необходимые данные:</p>
+
+          <tui-textfield
+            tuiChevron
+            [content]="value?.name"
+          >
+            <input
+              placeholder="Выберите тип карты"
+              tuiSelect
+              [(ngModel)]="value"
+              [ngModelOptions]="{standalone: true}"
+              (ngModelChange)="onValueChange($event)"
+            />
+
+            <tui-data-list-wrapper
+              *tuiTextfieldDropdown
+              new
+              [itemContent]="dropdownOptionContent"
+              [items]="cards"
+            />
+          </tui-textfield>
+
+          <ng-template
+            #dropdownOptionContent
+            let-card
+          >
+            <div class="card">
+              <tui-thumbnail-card [paymentSystem]="card.paymentSystem">
+                {{ card.number }}
+              </tui-thumbnail-card>
+              {{ card.name }}
+            </div>
+          </ng-template>
+
+          <p>Введите пин-код:</p>
+
+          <tui-textfield>
+            <input
+              maxlength="4"
+              placeholder="••••"
+              tuiInputPin
+              [formControl]="control"
+            />
+          </tui-textfield>
+
+
+
+
+          <p>
+            <button
+              tuiButton
+              type="submit"
+              [disabled]="!value"
+            >
+              Запросить!
+            </button>
+          </p>
+        </form>
+      </ng-template>
+
+
+    </div>
+    <div class="info-container">
+      <div *ngIf="showPayments" >
+
+      </div>
+      <div *ngIf="showHistory">
+        <app-transaction-form>
+
+        </app-transaction-form>
+      </div>
+      <div *ngIf="showAccount" class="user-card">
+        <div class="card-body">
+          <app-client-form [userData]="userData"></app-client-form>
+        </div>
+      </div>
+      <div *ngIf="showHelp" class="showhelp_card">
+        <app-about-form/>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+

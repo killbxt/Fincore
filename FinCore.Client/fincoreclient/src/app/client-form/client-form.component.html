@@ -1,0 +1,138 @@
+<div class="font_div" style="width: 1300px">
+  <tui-accordion class="container">
+    <tui-accordion-item class="blue-text">
+      <div class="tui-accordion__title">Личная информация</div>
+      <ng-template tuiAccordionItemContent>
+
+        <tui-textfield iconStart="pencil-off" tuiTextfieldSize="s" class="textfield__borders">
+          <label tuiLabel class="dataInfo">
+            {{ userData.surname }}
+          </label>
+          <input
+            tuiTextfield
+            [disabled]="true"
+          />
+        </tui-textfield>
+
+        <tui-textfield iconStart="pencil-off" tuiTextfieldSize="s" class="textfield__borders">
+          <label tuiLabel class="dataInfo">
+            {{ userData.name }}
+          </label>
+          <input
+            tuiTextfield
+            [disabled]="true"
+          />
+        </tui-textfield>
+
+        <tui-textfield iconStart="pencil-off" tuiTextfieldSize="s" class="textfield__borders">
+          <label tuiLabel class="dataInfo">
+            {{ userData.patronymic }}
+          </label>
+          <input
+            tuiTextfield
+            [disabled]="true"
+          />
+        </tui-textfield>
+
+        <tui-textfield iconStart="cake" tuiTextfieldSize="s" class="textfield__borders">
+          <label tuiLabel class="dataInfo">
+            {{ userData.dateOfBirth | date }}
+          </label>
+          <input
+            tuiTextfield
+            [disabled]="true"
+          />
+        </tui-textfield>
+
+      </ng-template>
+    </tui-accordion-item>
+    <tui-accordion-item class="blue-text" >
+      <div class="tui-accordion__title">Ваши контакты</div>
+      <ng-template tuiAccordionItemContent>
+        <div #content>
+          <tui-textfield iconStart="pencil-off" tuiTextfieldSize="s" class="textfield__borders">
+            <label tuiLabel class="dataInfo">
+              {{ userData.phoneNumber }}
+            </label>
+            <input
+              tuiTextfield
+              [disabled]="true"
+            />
+          </tui-textfield>
+
+          <tui-textfield iconStart="pencil-off" tuiTextfieldSize="s" class="textfield__borders">
+            <label tuiLabel class="dataInfo">
+              {{ userData.email }}
+            </label>
+            <input
+              tuiTextfield
+              [disabled]="true"
+            />
+          </tui-textfield>
+        </div>
+      </ng-template>
+    </tui-accordion-item>
+    <tui-accordion-item class="blue-text">
+      <div class="tui-accordion__title">Помощь</div>
+      <ng-template tuiAccordionItemContent>
+        Позвони на горячую линию!
+      </ng-template>
+    </tui-accordion-item>
+  </tui-accordion>
+  <div class="news_block">
+    <h1> 	<tui-icon
+      icon="arrow-big-left"
+      [style.color]="'var(--tui-background-accent-2)'"
+    /> Ваша информация находится здесь!</h1>
+    <p>Мы рады сообщить, что наше новое приложение теперь доступно для использования.</p>
+  </div>
+  <div>
+    <div *ngIf="cards && cards.length === 0">
+      <p>Нет карт для этого клиента.</p>
+    </div>
+    <div *ngIf="cards && cards.length > 0">
+      <header tuiHeader="h1" class="cards_header">
+        <hgroup tuiTitle>
+          <h1>Карты</h1>
+          <p tuiSubtitle class="subttitle">ваши личные средства!</p>
+        </hgroup>
+      </header>
+
+      <ul>
+        <li class="client__cards">
+        <li *ngFor="let card of cards" class="cards__container">
+          <button
+            size="s"
+            tuiButton
+            type="button"
+            (click)="showDialog(card)"
+          >
+            <tui-thumbnail-card
+              iconEnd="@tui.user"
+              paymentSystem="mastercard"
+              size="l"
+              class="gradient"
+            >
+              {{ card.cardNumber.slice(12,16) }}
+            </tui-thumbnail-card>
+          </button>
+        <tui-chip
+          size="xxs"
+          appearance="primary"
+          class="fade"
+        >
+          <div *ngIf="card.amount !== null && card.amount !== undefined">
+            {{ (card.amount) | tuiAmount: 'RUB' | async }}
+          </div>
+          <div *ngIf="card.amount === null || card.amount === undefined">
+            {{ 0 | tuiAmount: 'RUB' | async }}
+          </div>
+        </tui-chip>
+        </li>
+      </ul>
+    </div>
+
+
+  </div>
+</div>
+

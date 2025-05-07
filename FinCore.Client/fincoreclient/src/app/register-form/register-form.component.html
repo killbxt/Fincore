@@ -1,0 +1,88 @@
+<header>
+  <h1>
+    <tui-icon class="bankico" icon="landmark" [style.color]="'var(--tui-background-accent-1)'"></tui-icon>
+    Fincore
+  </h1>
+</header>
+<div class="register-container">
+  <h1>
+    <tui-icon class="dramaicon" icon="drama" [style.color]="'var(--tui-background-accent-0)'" [style.font-size.rem]="4"></tui-icon>
+  </h1>
+    <h2>Регистрация</h2>
+    <p>Заполните необходимые данные</p>
+  <form [formGroup]="registerForm" class="register__container" (ngSubmit)="onSubmit()">
+    <tui-input-phone formControlName="phoneNumber" type="phonenumber">
+      <label tuiLabel>Номер телефона</label>
+    </tui-input-phone>
+
+    <tui-textfield>
+      <label tuiLabel>Имя</label>
+      <input
+        tuiTextfield
+        formControlName="name"
+      />
+
+    </tui-textfield>
+
+    <tui-textfield>
+      <label tuiLabel>Фамилия</label>
+      <input
+        tuiTextfield
+        formControlName="surname"
+      />
+    </tui-textfield>
+
+    <tui-textfield>
+      <label tuiLabel>Отчество</label>
+      <input
+        tuiTextfield
+        formControlName="patronymic"
+      />
+      <tui-icon
+        tuiHintDirection="right"
+        tuiTooltip="Если отчества нет - оставьте поле пустым"
+      />
+    </tui-textfield>
+
+    <tui-input-date
+      [min]="minYear"
+      [max]="TuiDay.currentLocal()"
+      formControlName="dateOfBirth"
+      tuiUnfinishedValidator="Finish filling the field"
+    >
+      Дата рождения
+    </tui-input-date>
+
+    <tui-input
+      formControlName="email"
+      *ngIf="defaultForEmail | tuiEmails as emails"
+      [(ngModel)]="defaultForEmail"
+    >
+      Адрес электронной почты
+      <ng-template
+        *ngIf="emails.length"
+        tuiDataList
+      >
+        <tui-data-list-wrapper [items]="emails" />
+      </ng-template>
+    </tui-input>
+
+    <tui-textfield class="password__container">
+      <label tuiLabel>Пароль</label>
+      <input tuiTextfield type="password" formControlName="password"/>
+      <tui-icon tuiPassword />
+      <tui-icon
+        tuiHintDirection="right"
+        tuiTooltip="Введите и запомните ваш пароль!"
+      />
+    </tui-textfield>
+
+    <button [loading]="loading$ | async" class="button_container" tuiButton type="submit">
+      Зарегистрироваться
+    </button>
+    <p>
+      Войти в систему? <a routerLink="/login">Вход</a>
+    </p>
+  </form>
+</div>
+

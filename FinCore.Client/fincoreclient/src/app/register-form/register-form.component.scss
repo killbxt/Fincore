@@ -1,0 +1,77 @@
+body{
+  background-color: #333333;
+}
+tui-root{
+  color:  #1e232c;
+}
+h1{
+  color: White;
+  margin-left: 130px;
+}
+.dramaicon{
+  margin-left: 40px;
+}
+:host{
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+  margin: 2rem auto;
+
+}
+tui-chip {
+  margin: 0.5rem;
+}
+tui-textfield{
+  margin-top: 9px;
+}
+tui-input{
+  margin-top: 9px;
+}
+.register-container {
+  margin-left: -50px;
+  width: 400px;
+  background-color: #191b1f;
+  border-radius: 12px;
+  padding: 0px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: "Segoe UI Semibold";
+}
+h1{
+  font-family: "Segoe UI Semibold";
+}
+.password__container{
+  margin-top: 10px;
+}
+.button_container{
+  margin-top: 20px;
+}
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+tui-input-date{
+  margin-top: 10px;
+}
+.register-container p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #3367d6;
+}

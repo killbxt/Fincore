@@ -1,0 +1,70 @@
+.container {
+  max-inline-size: 19%;
+  color: white;
+  text-align: center;
+}
+.textfield__borders{
+  background-color: #FFFFFF;
+  margin-top: 5px;
+}
+.dataInfo{
+  color: black;
+  font-family: "Segoe UI Semibold", monospace;
+}
+.fade {
+  max-inline-size: 11rem;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  transform: scale(1.7);
+  box-sizing: border-box;
+
+}
+.client__cards{
+
+}
+.cards_header{
+  color: whitesmoke;
+  margin-left: 45%;
+}
+.news_block{
+  margin-left: 20%;
+  margin-top: -180px;
+  position: static;
+}
+.red-chip {
+  background-color: red;
+  color: white; /* Чтобы текст был хорошо виден на красном фоне */
+}
+.subttitle{
+  color: grey;
+  margin-left: -1.5%;
+}
+.cards__container{
+  margin-top: 50px;
+  margin-right: 150px;
+  max-width: 50px;
+  box-sizing: border-box;
+}
+.blue-text {
+  color: whitesmoke;
+  background-color: #526ed3;
+  font-family: "Segoe UI Semibold";
+}
+
+.blue-text .tui-accordion__title {
+  color: whitesmoke;
+  font-family: "Segoe UI Semibold";
+}
