@@ -28,11 +28,11 @@ tui-input{
   margin-top: 9px;
 }
 .register-container {
-  margin-left: -50px;
-  width: 400px;
+  margin: 5px;
+  width: 100%;
   background-color: #191b1f;
   border-radius: 12px;
-  padding: 0px 40px;
+  padding: 20px 42px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: white;
   font-family: "Segoe UI Semibold";
@@ -74,4 +74,36 @@ button {
 
 button:hover {
   background-color: #3367d6;
+}
+
+.glow-wrapper {
+  margin-left: -10%;
+  padding: 0px;
+  padding-right: 23.5%;
+  position: relative;
+  border-radius: 16px; /* скругление углов */
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.glow-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  
+  background: linear-gradient(270deg,  #191b1f,#191b1f, #7c36d5,#191b1f, #191b1f);
+  background-size: 800% 800%;
+  animation: glow-anim 6s linear infinite;
+  z-index: -1;
+  filter: blur(12px); /* мягкое свечение */
+}
+
+
+
+
+@keyframes glow-anim {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }

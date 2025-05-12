@@ -10,12 +10,11 @@ body{
 
 }
 .login-container {
-  margin-top: 20px;
-  margin-left: -50px;
+  margin: 2px;
   width: 400px;
   background-color: #191b1f;
   border-radius: 12px;
-  padding: 40px;
+  padding: 20px;
   padding-top: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   color: white;
@@ -24,6 +23,8 @@ body{
 .scan-faceico{
   margin-left: 42%;
 }
+
+
 
 h1{
   color: White;
@@ -64,4 +65,35 @@ button {
 
 button:hover {
   background-color: #3367d6;
+}
+
+.glow-wrapper {
+  margin-left: -10%;
+  position: relative;
+  padding: 3px; /* пространство под рамку */
+  border-radius: 16px; /* скругление углов */
+  z-index: 0;
+  overflow: hidden;
+  width: 111%;
+}
+
+.glow-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  
+  background: linear-gradient(270deg, #191b1f,#191b1f, #0097ff,#191b1f, #191b1f);
+  background-size: 800% 800%;
+  animation: glow-anim 6s linear infinite;
+  z-index: -1;
+  filter: blur(20px); /* мягкое свечение */
+}
+
+
+
+
+@keyframes glow-anim {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }

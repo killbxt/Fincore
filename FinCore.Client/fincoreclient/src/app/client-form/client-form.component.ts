@@ -1,7 +1,7 @@
 import {ChangeDetectionStrategy, ChangeDetectorRef, Component, inject, Input, OnInit} from '@angular/core';
 import {TuiButton, TuiDialogService, TuiIcon, TuiSurface, TuiTextfield, TuiTitle} from '@taiga-ui/core';
 import {AsyncPipe, DatePipe, NgClass, NgForOf, NgIf, NgStyle} from '@angular/common';
-import {TuiAccordion, TuiChip, TuiFade, TuiTiles} from '@taiga-ui/kit';
+import {TuiAccordion, TuiChip, TuiFade, TuiTiles, TuiTooltip} from '@taiga-ui/kit';
 import {TuiCard, TuiHeader} from '@taiga-ui/layout';
 import {TuiAmountPipe, TuiThumbnailCard} from '@taiga-ui/addon-commerce';
 import {FormsModule} from '@angular/forms';
@@ -44,7 +44,8 @@ interface Card {
     TuiHeader,
     TuiTitle,
     NgClass,
-    NgStyle
+    NgStyle,
+    TuiTooltip
   ],
   templateUrl: './client-form.component.html',
   standalone: true,
@@ -59,6 +60,14 @@ export class ClientFormComponent implements OnInit{
 
   protected showDialog(card: Card): void {
     const cardInfo = `
+     <tui-textfield iconStart="@tui.search">
+      <label tuiLabel>Номер карты</label>
+      <input
+        placeholder="I am placeholder"
+        tuiTextfield
+      />
+      <tui-icon tuiTooltip="Can also follow Angular validation" />
+    </tui-textfield>
       Номер карты: ${card.cardNumber}<br>
       Тип: ${card.type}<br>
       Срок действия: ${card.expiryDate}
@@ -85,7 +94,7 @@ export class ClientFormComponent implements OnInit{
           (cards) => {
             this.cards = cards;
             this.cdr.detectChanges();
-            console.log("Полученные карты:", this.cards); // Выводим полученные карты здесь!
+            console.log("Полученные карты:", this.cards);
           },
           (error) => {
             console.error('Ошибка при загрузке карт:', error);
